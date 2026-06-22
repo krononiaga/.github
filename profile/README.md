@@ -56,7 +56,7 @@ A project of Application Development that allow Pejabat Daerah Kluang (PDK) to c
 
 | Module Name | Frontend | Backend |
 | :--- | :--- | :--- |
-| AI Chatbot Module | Screens:<br>• [TenantChatbot.tsx](src/app/components/TenantChatbot.tsx)<br> | Backend:<br>• [server.js](#) |
+| AI Chatbot Module | Screens:<br>• [TenantChatbot.tsx](https://github.com/krononiaga/kluangpay-frontend/blob/master/src/app/components/TenantChatbot.tsx)<br> | Backend:<br>• [server.js](#) |
 | Analytics and Reporting Module | Screens:<br>• [BehavioralAnalyticsModule.tsx](src/app/components/BehavioralAnalyticsModule.tsx)<br> | |
 | Tenant Profile Update Module | Screens:<br>• [TenantBehavioralProfile.tsx](src/app/components/TenantBehavioralProfile.tsx)<br> | |
 
