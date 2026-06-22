@@ -9,7 +9,7 @@ A project of Application Development that allow Pejabat Daerah Kluang (PDK) to c
 | Lutfi Haziq bin Mohamad Hapisol | A24CS0266 | User Management Subsystem |
 | Aqil Dzarfan bin Asrul Sharaff | A24CS0049 | Billing and Fee Management Subsystem |
 | Noor Aidid Izmer bin Noor Habib | A24CS0288 | Payment Gateway Subsystem |
-| Lukhman Nur ISkandar bin Khairudin | A24CS0265 | AI Subsystem |
+| Lukhman Nur Iskandar bin Khairudin | A24CS0265 | AI Subsystem |
 | Raid bin Rohisham | A24CS0293 | Notification Subsystem |
 
 ---
@@ -20,9 +20,9 @@ A project of Application Development that allow Pejabat Daerah Kluang (PDK) to c
 
 | Module Name | Frontend | Backend |
 | :--- | :--- | :--- |
-| User Authentication Module | Screens:<br>• [LoginScreen.js](#)<br>• [RecoverPasswordScreen.js](#)<br>• [RegisterScreen.js](#)<br>• [ResetPasswordScreen.js](#) | Backend:<br>• [server.js](#) |
-| Profile Management Module | Screens:<br>• [AdminHistoryScreen.js](#)<br>• [AdminReviewScreen.js](#)<br>• [ProfileScreen.js](#)<br>• [ReviewSubmissionScreen.js](#)<br>• [VerificationScreen.js](#)<br>• [DetailsScreen.js](#) | Controllers:<br>• [adminController.js](#)<br>• [emailController.js](#)<br>• [profileController.js](#)<br>• [verifyController.js](#)<br>• [server.js](#)<br><br>MiddleWare:<br>• [authMiddleWare.js](#)<br><br>Routes:<br>• [adminRoutes.js](#)<br>• [emailRoutes.js](#)<br>• [profileRoutes.js](#)<br>• [verifyRoutes.js](#)<br><br>Config:<br>• [db.js](#)<br><br>To start up Cloudflare tunnel and request new quick Tunnel on trycloudflare.com:<br>• [start.bat](#) |
-| User Roles Module | Screens:<br>• [AdminDashboardScreen.js](#)<br>• [DemoMarketplaceScreen.js](#)<br>• [DemoSellItemScreen.js](#)<br>• [HomePage.js](#)<br>• [ReportDetailScreen.js](#)<br>• [UserAccessManagementScreen.js](#)<br><br>Components:<br>• [TransactionGuard.js](#) | Controllers:<br>• [accountController.js](#)<br>• [server.js](#)<br><br>MiddleWare:<br>• [authMiddleWare.js](#)<br><br>Routes:<br>• [adminRoutes.js](#)<br>• [emailRoutes.js](#)<br>• [profileRoutes.js](#)<br>• [verifyRoutes.js](#)<br>• [accountRoutes.js](#)<br><br>Config:<br>• [db.js](#) |
+| User Authentication Module | Screens:<br>• [LoginPage.tsx](src/app/components/LoginPage.tsx)<br> | Backend:<br>• [server.js](#) |
+| Profile Management Module | Screens:<br>• [ProfileManagement.tsx](src/app/components/ProfileManagement.tsx)<br> | Controllers:<br>• [adminController.js](#)<br> |
+| User Roles Module | Screens:<br>• [AdminDashboard.tsx](src/app/components/AdminDashboard.tsx)<br>• [TenantDashboard.tsx](src/app/components/TenantDashboard.tsx)<br> | Controllers:<br>• [accountController.js](#)<br> |
 
 ---
 
@@ -56,9 +56,9 @@ A project of Application Development that allow Pejabat Daerah Kluang (PDK) to c
 
 | Module Name | Frontend | Backend |
 | :--- | :--- | :--- |
-| AI Chatbot Module | Screens:<br>• [LoginScreen.js](#)<br>• [RecoverPasswordScreen.js](#)<br>• [RegisterScreen.js](#)<br>• [ResetPasswordScreen.js](#) | Backend:<br>• [server.js](#) |
-| Analytics and Reporting Module | Screens:<br>• [AdminHistoryScreen.js](#)<br>• [AdminReviewScreen.js](#)<br>• [ProfileScreen.js](#)<br>• [ReviewSubmissionScreen.js](#)<br>• [VerificationScreen.js](#)<br>• [DetailsScreen.js](#) | Controllers:<br>• [adminController.js](#)<br>• [emailController.js](#)<br>• [profileController.js](#)<br>• [verifyController.js](#)<br>• [server.js](#)<br><br>MiddleWare:<br>• [authMiddleWare.js](#)<br><br>Routes:<br>• [adminRoutes.js](#)<br>• [emailRoutes.js](#)<br>• [profileRoutes.js](#)<br>• [verifyRoutes.js](#)<br><br>Config:<br>• [db.js](#)<br><br>To start up Cloudflare tunnel and request new quick Tunnel on trycloudflare.com:<br>• [start.bat](#) |
-| Tenant Profile Update Module | Screens:<br>• [AdminDashboardScreen.js](#)<br>• [DemoMarketplaceScreen.js](#)<br>• [DemoSellItemScreen.js](#)<br>• [HomePage.js](#)<br>• [ReportDetailScreen.js](#)<br>• [UserAccessManagementScreen.js](#)<br><br>Components:<br>• [TransactionGuard.js](#) | Controllers:<br>• [accountController.js](#)<br>• [server.js](#)<br><br>MiddleWare:<br>• [authMiddleWare.js](#)<br><br>Routes:<br>• [adminRoutes.js](#)<br>• [emailRoutes.js](#)<br>• [profileRoutes.js](#)<br>• [verifyRoutes.js](#)<br>• [accountRoutes.js](#)<br><br>Config:<br>• [db.js](#) |
+| AI Chatbot Module | Screens:<br>• [TenantChatbot.tsx](src/app/components/TenantChatbot.tsx)<br> | Backend:<br>• [server.js](#) |
+| Analytics and Reporting Module | Screens:<br>• [BehavioralAnalyticsModule.tsx](src/app/components/BehavioralAnalyticsModule.tsx)<br> | |
+| Tenant Profile Update Module | Screens:<br>• [TenantBehavioralProfile.tsx](src/app/components/TenantBehavioralProfile.tsx)<br> | |
 
 ---
 
