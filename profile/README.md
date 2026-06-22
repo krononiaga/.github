@@ -20,9 +20,9 @@ A project of Application Development that allow Pejabat Daerah Kluang (PDK) to c
 
 | Module Name | Frontend | Backend |
 | :--- | :--- | :--- |
-| User Authentication Module | Screens:<br>• [LoginPage.tsx](src/app/components/LoginPage.tsx)<br> | Backend:<br>• [server.js](#) |
-| Profile Management Module | Screens:<br>• [ProfileManagement.tsx](src/app/components/ProfileManagement.tsx)<br> | Controllers:<br>• [adminController.js](#)<br> |
-| User Roles Module | Screens:<br>• [AdminDashboard.tsx](src/app/components/AdminDashboard.tsx)<br>• [TenantDashboard.tsx](src/app/components/TenantDashboard.tsx)<br> | Controllers:<br>• [accountController.js](#)<br> |
+| User Authentication Module | Screens:<br>• [LoginPage.tsx](https://github.com/krononiaga/kluangpay-frontend/blob/master/src/app/components/LoginPage.tsx)<br> | Backend:<br>• [server.js](#) |
+| Profile Management Module | Screens:<br>• [ProfileManagement.tsx](https://github.com/krononiaga/kluangpay-frontend/blob/master/src/app/components/ProfileManagement.tsx)<br> | Controllers:<br>• [adminController.js](#)<br> |
+| User Roles Module | Screens:<br>• [AdminDashboard.tsx](https://github.com/krononiaga/kluangpay-frontend/blob/master/src/app/components/AdminDashboard.tsx)<br>• [TenantDashboard.tsx](https://github.com/krononiaga/kluangpay-frontend/blob/master/src/app/components/TenantDashboard.tsx)<br> | Controllers:<br>• [accountController.js](#)<br> |
 
 ---
 
@@ -57,8 +57,8 @@ A project of Application Development that allow Pejabat Daerah Kluang (PDK) to c
 | Module Name | Frontend | Backend |
 | :--- | :--- | :--- |
 | AI Chatbot Module | Screens:<br>• [TenantChatbot.tsx](https://github.com/krononiaga/kluangpay-frontend/blob/master/src/app/components/TenantChatbot.tsx)<br> | Backend:<br>• [server.js](#) |
-| Analytics and Reporting Module | Screens:<br>• [BehavioralAnalyticsModule.tsx](src/app/components/BehavioralAnalyticsModule.tsx)<br> | |
-| Tenant Profile Update Module | Screens:<br>• [TenantBehavioralProfile.tsx](src/app/components/TenantBehavioralProfile.tsx)<br> | |
+| Analytics and Reporting Module | Screens:<br>• [BehavioralAnalyticsModule.tsx](https://github.com/krononiaga/kluangpay-frontend/blob/master/src/app/components/BehavioralAnalyticsModule.tsx)<br> | |
+| Tenant Profile Update Module | Screens:<br>• [TenantBehavioralProfile.tsx](https://github.com/krononiaga/kluangpay-frontend/blob/master/src/app/components/TenantBehavioralProfile.tsx)<br> | |
 
 ---
 
